@@ -9,7 +9,7 @@ export const Contenido = () => {
                 <div className="container-fluid">
                 <div className="row mb-2">
                     <div className="col-sm-6">
-                    <h1 className="m-0">A ver si es cierto </h1>
+                    <h1 className="m-0">tu tanda Roy</h1>
                     </div>{/* /.col */}
                     <div className="col-sm-6">
                     <ol className="breadcrumb float-sm-right">
@@ -20,6 +20,7 @@ export const Contenido = () => {
                 </div>{/* /.row */}
                 </div>{/* /.container-fluid */}
             </div>
+
             {/* /.content-header */}
             {/* Main content */}
             <section className="content">
