@@ -1,17 +1,29 @@
-import { Contenido } from './components/Contenido'
-import { Footer } from './components/Footer'
-import { Header } from './components/Header'
-import { SideNav } from './components/SideNav'
+import { Footer } from './components/Plantilla/Footer'
+import { Header } from './components/Plantilla/Header'
+import { PaginaBlanco } from './components/Paginas/PaginaBlanco'
+import { SideNav } from './components/Plantilla/SideNav'
+import { BrowserRouter, Route, Routes } from 'react-router-dom'
+import { Contenido } from './components/Paginas/Contenido'
+import { NotFound } from './components/Plantilla/NotFound'
 
 function App() {
   
 
   return (
     <>
+    <BrowserRouter>
       <Header />
-      <SideNav />
-      <Contenido />
+      <SideNav />     
+
+      <Routes>
+        <Route path="/" element={<Contenido />} />
+        <Route path="/blanco" element={<PaginaBlanco />} />
+        {/* Resto de páginas que no encuentre. */}
+        <Route path="*" element={<NotFound />} />
+      </Routes>
+      
       <Footer />
+      </BrowserRouter>
     </>
   )
 }

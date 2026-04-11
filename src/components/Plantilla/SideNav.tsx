@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom"
 
 export const SideNav = () => {
   return (
@@ -21,16 +22,16 @@ export const SideNav = () => {
                     <a href="#" className="nav-link active">
                         <i className="nav-icon fas fa-tachometer-alt" />
                         <p>
-                        Dashboard
+                        Inicio
                         <i className="right fas fa-angle-left" />
                         </p>
                     </a>
                     <ul className="nav nav-treeview">
                         <li className="nav-item">
-                        <a href="./index.html" className="nav-link active">
+                        <Link to="/" className="nav-link active">
                             <i className="far fa-circle nav-icon" />
-                            <p>Dashboard v1</p>
-                        </a>
+                            <p>Tablero</p>
+                        </Link>
                         </li>                        
                     </ul>
                     </li>
@@ -45,16 +46,16 @@ export const SideNav = () => {
                     </a>
                     <ul className="nav nav-treeview">
                         <li className="nav-item">
-                        <a href="pages/layout/top-nav.html" className="nav-link">
+                        <Link to="/blanco" className="nav-link">
                             <i className="far fa-circle nav-icon" />
                             <p>Usuarios</p>
-                        </a>
+                        </Link>
                         </li>
                         <li className="nav-item">
-                        <a href="pages/layout/top-nav-sidebar.html" className="nav-link">
+                        <Link to="/accesos" className="nav-link">
                             <i className="far fa-circle nav-icon" />
                             <p>Accesos</p>
-                        </a>
+                        </Link >
                         </li>
                         <li className="nav-item">
                         <a href="pages/layout/boxed.html" className="nav-link">
