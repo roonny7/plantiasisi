@@ -5,7 +5,7 @@ export const NotFound = () => {
     <>
             {/* Content Wrapper. Contains page content */}
             <div className="content-wrapper">
-                <EncabezadoPagina />
+                <EncabezadoPagina titulo="No encontrado" paginaInicio="Home" titulo2="Página no encontrada" />
             
                 {/* Main content */}
                 <section className="content">

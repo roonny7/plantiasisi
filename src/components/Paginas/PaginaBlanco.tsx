@@ -5,7 +5,7 @@ export const PaginaBlanco = () => {
     <>
             {/* Content Wrapper. Contains page content */}
             <div className="content-wrapper">
-                <EncabezadoPagina />
+                <EncabezadoPagina titulo={"Título 1"} paginaInicio="Home" titulo2="Subtítulo" />
             
                 {/* Main content */}
                 <section className="content">
