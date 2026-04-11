@@ -5,6 +5,7 @@ import { SideNav } from './components/Plantilla/SideNav'
 import { BrowserRouter, Route, Routes } from 'react-router-dom'
 import { Contenido } from './components/Paginas/Contenido'
 import { NotFound } from './components/Plantilla/NotFound'
+import { Formularios } from './components/Paginas/Formularios'
 
 function App() {
   
@@ -18,6 +19,7 @@ function App() {
       <Routes>
         <Route path="/" element={<Contenido />} />
         <Route path="/blanco" element={<PaginaBlanco />} />
+        <Route path="/formularios" element={<Formularios />} />
         {/* Resto de páginas que no encuentre. */}
         <Route path="*" element={<NotFound />} />
       </Routes>
