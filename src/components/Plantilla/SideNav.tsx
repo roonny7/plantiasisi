@@ -71,6 +71,113 @@ export const SideNav = () => {
                         </li>                        
                     </ul>
                     </li>
+                    
+                    <li className="nav-item">
+                    <a href="#" className="nav-link">
+                        <i className="nav-icon fas fa-tree" />
+                        <p>
+                        Catálogos
+                        <i className="fas fa-angle-left right" />
+                        </p>
+                    </a>
+                    <ul className="nav nav-treeview">
+                        <li className="nav-item">
+                        <a href="pages/UI/general.html" className="nav-link">
+                            <i className="far fa-circle nav-icon" />
+                            <p>Generales</p>
+                        </a>
+                        </li>
+                        <li className="nav-item">
+                        <a href="pages/UI/icons.html" className="nav-link">
+                            <i className="far fa-circle nav-icon" />
+                            <p>SSIEG</p>
+                        </a>
+                        </li>
+                        <li className="nav-item">
+                        <a href="pages/UI/icons.html" className="nav-link">
+                            <i className="far fa-circle nav-icon" />
+                            <p>Programas</p>
+                        </a>
+                        </li>               
+                        <li className="nav-item">
+                            <a href="pages/UI/icons.html" className="nav-link"><i className="far fa-circle nav-icon" />
+                                <p>Temáticas</p>
+                            </a>
+                        </li>
+                        <li className="nav-item">
+                            <a href="pages/UI/icons.html" className="nav-link"><i className="far fa-circle nav-icon" />
+                                <p>ODS</p>
+                            </a>
+                        </li>         
+                        <li className="nav-item">
+                            <a href="pages/UI/icons.html" className="nav-link"><i className="far fa-circle nav-icon" />
+                                <p>PEDs Eje</p>
+                            </a>
+                        </li>              
+                        <li className="nav-item">
+                            <a href="pages/UI/icons.html" className="nav-link"><i className="far fa-circle nav-icon" />
+                                <p>PEDs Tema</p>
+                            </a>
+                        </li>
+                        <li className="nav-item">
+                            <a href="pages/UI/icons.html" className="nav-link"><i className="far fa-circle nav-icon" />
+                                <p>PEDs Subtema</p>
+                            </a>
+                        </li>
+                        <li className="nav-item">
+                            <a href="pages/UI/icons.html" className="nav-link"><i className="far fa-circle nav-icon" />
+                                <p>Periodos</p>
+                            </a>
+                        </li>                                  
+                    </ul>
+                    </li>
+<li className="nav-item">
+                    <a href="#" className="nav-link">
+                        <i className="nav-icon fas fa-edit" />
+                        <p>
+                        Indicadores
+                        <i className="fas fa-angle-left right" />
+                        </p>
+                    </a>
+                    <ul className="nav nav-treeview">
+                        <li className="nav-item">
+                        <a href="pages/forms/general.html" className="nav-link">
+                            <i className="far fa-circle nav-icon" />
+                            <p>Indicadores</p>
+                        </a>
+                        </li>
+                        <li className="nav-item">
+                        <a href="pages/forms/advanced.html" className="nav-link">
+                            <i className="far fa-circle nav-icon" />
+                            <p>Mis propuestas</p>
+                        </a>
+                        </li>
+                        <li className="nav-item">
+                        <a href="pages/forms/advanced.html" className="nav-link">
+                            <i className="far fa-circle nav-icon" />
+                            <p>Propuestas aprobadas</p>
+                        </a>
+                        </li>
+                        <li className="nav-item">
+                        <a href="pages/forms/advanced.html" className="nav-link">
+                            <i className="far fa-circle nav-icon" />
+                            <p>Propuestas en revisión</p>
+                        </a>
+                        </li>
+                        <li className="nav-item">
+                        <a href="pages/forms/editors.html" className="nav-link">
+                            <i className="far fa-circle nav-icon" />
+                            <p>Archivos</p>
+                        </a>
+                        </li>
+                        <li className="nav-item">
+                        <a href="pages/forms/validation.html" className="nav-link">
+                            <i className="far fa-circle nav-icon" />
+                            <p>Carga de archivos</p>
+                        </a>
+                        </li>
+                    </ul>
+                    </li>                    
                     <li className="nav-item">
                     <a href="#" className="nav-link">
                         <i className="nav-icon fas fa-chart-pie" />
@@ -100,64 +207,7 @@ export const SideNav = () => {
                         </li>
                     </ul>
                     </li>
-                    <li className="nav-item">
-                    <a href="#" className="nav-link">
-                        <i className="nav-icon fas fa-tree" />
-                        <p>
-                        Catálogos
-                        <i className="fas fa-angle-left right" />
-                        </p>
-                    </a>
-                    <ul className="nav nav-treeview">
-                        <li className="nav-item">
-                        <a href="pages/UI/general.html" className="nav-link">
-                            <i className="far fa-circle nav-icon" />
-                            <p>Generales</p>
-                        </a>
-                        </li>
-                        <li className="nav-item">
-                        <a href="pages/UI/icons.html" className="nav-link">
-                            <i className="far fa-circle nav-icon" />
-                            <p>Periodos</p>
-                        </a>
-                        </li>                        
-                    </ul>
-                    </li>
-                    <li className="nav-item">
-                    <a href="#" className="nav-link">
-                        <i className="nav-icon fas fa-edit" />
-                        <p>
-                        Indicadores
-                        <i className="fas fa-angle-left right" />
-                        </p>
-                    </a>
-                    <ul className="nav nav-treeview">
-                        <li className="nav-item">
-                        <a href="pages/forms/general.html" className="nav-link">
-                            <i className="far fa-circle nav-icon" />
-                            <p>Indicadores</p>
-                        </a>
-                        </li>
-                        <li className="nav-item">
-                        <a href="pages/forms/advanced.html" className="nav-link">
-                            <i className="far fa-circle nav-icon" />
-                            <p>Mis propuestas</p>
-                        </a>
-                        </li>
-                        <li className="nav-item">
-                        <a href="pages/forms/editors.html" className="nav-link">
-                            <i className="far fa-circle nav-icon" />
-                            <p>Archivos</p>
-                        </a>
-                        </li>
-                        <li className="nav-item">
-                        <a href="pages/forms/validation.html" className="nav-link">
-                            <i className="far fa-circle nav-icon" />
-                            <p>Carga de archivos</p>
-                        </a>
-                        </li>
-                    </ul>
-                    </li>
+                    
                     <li className="nav-header">-  ADMINISTRADOR -</li>
                     
                     <li className="nav-item">
