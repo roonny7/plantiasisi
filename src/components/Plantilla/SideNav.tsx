@@ -5,7 +5,7 @@ export const SideNav = () => {
     <>
             {/* Main Sidebar Container */}
             <aside className="main-sidebar sidebar-dark-primary elevation-4">            
-                <img src="Escudo.png" alt="Indicadores" className="img-responsive" style={{opacity: '.8', width : '70px', marginLeft: 'auto', marginRight: 'auto', display: 'block'}} />                 
+                <img src="/Escudo.png" alt="Indicadores" className="img-responsive" style={{opacity: '.8', width : '70px', marginLeft: 'auto', marginRight: 'auto', display: 'block'}} />                 
             {/* Sidebar */}
             <div className="sidebar">
                 {/* Sidebar user panel (optional) */}
@@ -81,6 +81,11 @@ export const SideNav = () => {
                     </a>
                     <ul className="nav nav-treeview">
                         <li className="nav-item">
+                            <a href="/catalogos/ods/" className="nav-link"><i className="far fa-circle nav-icon" />
+                                <p>ODS</p>
+                            </a>
+                        </li>
+                        <li className="nav-item">
                         <a href="pages/UI/general.html" className="nav-link">
                             <i className="far fa-circle nav-icon" />
                             <p>SSIEG</p>
@@ -100,12 +105,7 @@ export const SideNav = () => {
                             <a href="pages/UI/icons.html" className="nav-link"><i className="far fa-circle nav-icon" />
                                 <p>Temas</p>
                             </a>
-                        </li>
-                        <li className="nav-item">
-                            <a href="pages/UI/icons.html" className="nav-link"><i className="far fa-circle nav-icon" />
-                                <p>ODS</p>
-                            </a>
-                        </li>
+                        </li>                        
                         <li className="nav-item">
                             <a href="pages/UI/icons.html" className="nav-link"><i className="far fa-circle nav-icon" />
                                 <p>PED</p>
