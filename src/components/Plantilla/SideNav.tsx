@@ -35,7 +35,7 @@ export const SideNav = () => {
                         </li>                        
                     </ul>
                     </li>
-                    <li className="nav-item">
+                    <li className="nav-item menu-is-opening menu-open">
                     <a href="#" className="nav-link">
                         <i className="nav-icon fas fa-copy" />
                         <p>
@@ -71,36 +71,7 @@ export const SideNav = () => {
                         </li>                        
                     </ul>
                     </li>
-                    <li className="nav-item">
-                    <a href="#" className="nav-link">
-                        <i className="nav-icon fas fa-chart-pie" />
-                        <p>
-                        Reportes
-                        <i className="right fas fa-angle-left" />
-                        </p>
-                    </a>
-                    <ul className="nav nav-treeview">                        
-                        <li className="nav-item">
-                        <a href="pages/charts/flot.html" className="nav-link">
-                            <i className="far fa-circle nav-icon" />
-                            <p>Indicadores</p>
-                        </a>
-                        </li>
-                        <li className="nav-item">
-                        <a href="pages/charts/inline.html" className="nav-link">
-                            <i className="far fa-circle nav-icon" />
-                            <p>Periodos</p>
-                        </a>
-                        </li>
-                        <li className="nav-item">
-                        <a href="pages/charts/uplot.html" className="nav-link">
-                            <i className="far fa-circle nav-icon" />
-                            <p>Reportes generales</p>
-                        </a>
-                        </li>
-                    </ul>
-                    </li>
-                    <li className="nav-item">
+                    <li className="nav-item menu-is-opening menu-open">
                     <a href="#" className="nav-link">
                         <i className="nav-icon fas fa-tree" />
                         <p>
@@ -112,18 +83,44 @@ export const SideNav = () => {
                         <li className="nav-item">
                         <a href="pages/UI/general.html" className="nav-link">
                             <i className="far fa-circle nav-icon" />
-                            <p>Generales</p>
+                            <p>SSIEG</p>
                         </a>
                         </li>
                         <li className="nav-item">
-                        <a href="pages/UI/icons.html" className="nav-link">
-                            <i className="far fa-circle nav-icon" />
-                            <p>Periodos</p>
-                        </a>
-                        </li>                        
+                            <a href="pages/UI/icons.html" className="nav-link"><i className="far fa-circle nav-icon" />
+                                <p>Programa</p>
+                            </a>
+                        </li>
+                        <li className="nav-item">
+                            <a href="pages/UI/icons.html" className="nav-link"><i className="far fa-circle nav-icon" />
+                                <p>Temática</p>
+                            </a>
+                        </li>
+                        <li className="nav-item">
+                            <a href="pages/UI/icons.html" className="nav-link"><i className="far fa-circle nav-icon" />
+                                <p>Temas</p>
+                            </a>
+                        </li>
+                        <li className="nav-item">
+                            <a href="pages/UI/icons.html" className="nav-link"><i className="far fa-circle nav-icon" />
+                                <p>ODS</p>
+                            </a>
+                        </li>
+                        <li className="nav-item">
+                            <a href="pages/UI/icons.html" className="nav-link"><i className="far fa-circle nav-icon" />
+                                <p>PED</p>
+                            </a>
+                        </li>
+                        <li className="nav-item">
+                            <a href="pages/UI/icons.html" className="nav-link"><i className="far fa-circle nav-icon" />
+                                <p>Ejes</p>
+                            </a>
+                        </li>
                     </ul>
                     </li>
-                    <li className="nav-item">
+                    
+                    
+                    <li className="nav-item menu-is-opening menu-open">
                     <a href="#" className="nav-link">
                         <i className="nav-icon fas fa-edit" />
                         <p>
@@ -158,6 +155,35 @@ export const SideNav = () => {
                         </li>
                     </ul>
                     </li>
+<li className="nav-item menu-is-opening menu-open">
+                    <a href="#" className="nav-link">
+                        <i className="nav-icon fas fa-chart-pie" />
+                        <p>
+                        Reportes
+                        <i className="right fas fa-angle-left" />
+                        </p>
+                    </a>
+                    <ul className="nav nav-treeview">                        
+                        <li className="nav-item">
+                        <a href="pages/charts/flot.html" className="nav-link">
+                            <i className="far fa-circle nav-icon" />
+                            <p>Indicadores</p>
+                        </a>
+                        </li>
+                        <li className="nav-item">
+                        <a href="pages/charts/inline.html" className="nav-link">
+                            <i className="far fa-circle nav-icon" />
+                            <p>Periodos</p>
+                        </a>
+                        </li>
+                        <li className="nav-item">
+                        <a href="pages/charts/uplot.html" className="nav-link">
+                            <i className="far fa-circle nav-icon" />
+                            <p>Reportes generales</p>
+                        </a>
+                        </li>
+                    </ul>
+                    </li>                    
                     <li className="nav-header">-  ADMINISTRADOR -</li>
                     
                     <li className="nav-item">
